@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="cabecalho">
+      <img class="cabecalho_logo-imagem" src="/sources/key.png" alt="" />
+    </header>
+    <main class="conteudo-principal">
+      <div class="conteudo-principal_entrada">
+        <div class="conteudo-principal_entrada_texto">
+          <textarea
+            name="entrada_texto"
+            class="conteudo-principal_entrada_texto_txtarea"
+            cols="30"
+            rows="12"
+            placeholder="Digite seu texto"
+          ></textarea>
+          <p class="conteudo-principal_entrada_texto_aviso">
+            <img
+              class="imagem-exclamacao"
+              src="/sources/exclamacao.png"
+              alt=""
+            />
+            Apenas letras minuscúlas e sem acento.
+          </p>
+        </div>
+        <div class="conteudo-principal_entrada_butoes">
+          
+          <button class="butao_criptografar">Criptografar</button>
+          <button class="butao_descriptografar">Descriptografar</button>
+      </div>
+      </div>
+      <div class="conteudo-principal_resultado">
+        <img
+          class="imagem-resultado"
+          src="/sources/resultado.svg"
+          alt=""
+        />
+        <h1 class="conteudo-principal_resultado_titulo">
+          Nenhuma mensagem encontrada
+        </h1>
+        <p class="conteudo-principal_resultado_paragrafo">
+          Digite um texto que você deseja criptografar ou descriptografar.
+        </p>
+        <button class="butao_copiar">Copiar</button>
+      </div>
+    </main>
+    <footer></footer>
+    <script src="/app.js"></script>
+  </body>
+</html>
